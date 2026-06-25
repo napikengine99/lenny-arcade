@@ -318,7 +318,10 @@
                     animationId = null;
                 }
                 render();
-            }
+            }Some checks were not successful
+3 cancelled checks
+
+    pages build and deploy
             // reset drop counter to avoid instant locking
             dropCounter = 0;
             updateUI();
@@ -421,7 +424,10 @@
 
             // draw current piece with glow
             if (currentPiece && !gameOver) {
-                const { matrix, x, y, color } = currentPiece;
+                const { matrix, x, y, color } = currentPiece;Some checks were not successful
+3 cancelled checks
+
+    pages build and deploy
                 ctx.shadowColor = color;
                 ctx.shadowBlur = 25;
                 for (let row = 0; row < matrix.length; row++) {
